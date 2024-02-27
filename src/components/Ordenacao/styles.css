@@ -1,0 +1,23 @@
+.lista-ordenacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  list-style-type: none;
+  margin-top: 56px;
+  margin-bottom: 32px;
+}
+
+.lista-ordenacao__link {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: var(--cinza-medio);
+  text-decoration: none;
+}
+
+.lista-ordenacao__link--ativo {
+  font-weight: 600;
+  color: var(--verde-destaque);
+  text-decoration: underline;
+}
